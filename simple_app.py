@@ -434,6 +434,6 @@ setup_dashboard_routes(app)
 
 if __name__ == '__main__':
     # Try with different settings to avoid connection issues
-    port = 3000
+    port = 5000
     print(f"Starting server at http://localhost:{port}")
     app.run(host='0.0.0.0', port=port, debug=True, use_reloader=False) 
